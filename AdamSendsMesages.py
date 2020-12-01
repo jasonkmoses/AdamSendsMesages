@@ -1,4 +1,5 @@
-#Tip run on wayscript to send WhatsApp messages everyday
+# Tip run code on wayscript to send WhatsApp messages everyday
+# -> https://wayscript.com/
 import os
 from twilio.rest import Client
 import datetime
