@@ -1,12 +1,12 @@
-//Tip run on wayscript to send WhatsApp messages everyday
+#Tip run on wayscript to send WhatsApp messages everyday
 import os
 from twilio.rest import Client
 import datetime
 data = datetime.datetime.today()
 datetime.datetime(data.year,data.month,data.day,data.hour,data.minute)
 index = datetime.datetime.today().weekday()
-ACCOUNT_SID = "ACa44bf46ea3b7ea23607e30c830f52449"
-AUTH_TOKEN = "e1f7670ab37e57b3911a153f634479cb"
+ACCOUNT_SID = "<ACCOUNT_SID>"
+AUTH_TOKEN = "<AUTH_TOKEN>"
 client = Client(ACCOUNT_SID,AUTH_TOKEN)
 day_name= ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday','Monday']
 print(day_name[index])
