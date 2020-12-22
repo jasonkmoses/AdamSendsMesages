@@ -24,7 +24,8 @@ Where the fields are for Account SID and Account Auth enter the credentials you 
 
 Next start up a sandbox in WhatsApp keep this open as long as you want messages sent to your phone
 
-Next Create a way script account and from way script create a new script name it anything you want then add a new trigger the trigger that will be added must be the 
+Next Create a way script account -> (https://wayscript.com/) and from way script create a new script name it anything 
+you want then add a new trigger the trigger that will be added must be the 
 time trigger set what time to send in the mornings will be ideal then add a new step the step must be Python now either insert a file or open way scripts editor either way now take the code 
 I wrote and put it into the Python step and if the sandbox is open 24/7 it should send the student timetable in the times you specified.
 
